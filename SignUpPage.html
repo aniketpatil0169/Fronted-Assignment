@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        #maindiv {
+            display: flex;
+            border: 1px solid #2e80aa;
+            padding-left: 132px;
+            width: 529px;
+            margin-left: 122px;
+            height: 512px;
+            border-radius: 83px;
+        }
+
+        #name {
+            height: 30px;
+            width: 200px;
+            border-radius: 8px;
+            text-align: center;
+            border-color: #2e80aa;
+        }
+
+        #email {
+            height: 30px;
+            width: 409px;
+            border-radius: 8px;
+            text-align: center;
+            border-color: #2e80aa;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+        }
+
+        /*#date{
+            background-color:red;
+            height:27px;
+            width:75px;
+        }*/
+        #date {
+            display: inline;
+            height: 27px;
+            width: 75px;
+            border-color: #2e80aa;
+        }
+
+        #date1 {
+            height: 30px;
+            width: 105px;
+            border-color: #2e80aa;
+        }
+
+        #password {
+            height: 30px;
+            width: 409px;
+            border-radius: 8px;
+            text-align: center;
+            border-color: #2e80aa;
+        }
+
+        #btn1 {
+            color: white;
+            background-color: #4de428;
+            height: 32px;
+            width: 150px;
+            border-radius: 10px;
+        }
+
+        #Clear {
+            color: white;
+            background-color: #e95c0b;
+            height: 32px;
+            width: 150px;
+            border-radius: 10px;
+        }
+
+        #pre {
+            width: 419px;
+            font-size: 11px;
+        }
+
+        #month {
+            height: 30px;
+            width: 105px;
+            border-color: #2e80aa;
+        }
+
+        #year {
+            height: 30px;
+            width: 105px;
+            border-color: #2e80aa;
+        }
+
+        #prdiv {
+            display: flex;
+            justify-content: center;
+        }
+
+        .btn2 {
+            display: flex;
+            gap: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="prdiv">
+        <div id="maindiv">
+            <div id="signup">
+                <h1>Sign Up</h1>
+                <p>Its quick and easy.</p>
+                <hr />
+                <p>
+                    <input type="text" placeholder="First Name" id="name" />
+                    <input type="text" placeholder="Last Name" id="name" />
+                </p>
+                <input type="text" placeholder="Mobile number or email address" id="email" />
+                <br />
+                <input type="password" placeholder="Enter Password" id="password" />
+                <br>
+                <br>
+                <div id="date">
+                    <label>Date of birth</label>
+                    <select id="date1">
+                        <option> Date </option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                        <option>13</option>
+                        <option>14</option>
+                        <option>15</option>
+                        <option>16</option>
+                        <option>17</option>
+                        <option>18</option>
+                        <option>19</option>
+                        <option>20</option>
+                        <option>21</option>
+                        <option>22</option>
+                        <option>23</option>
+                        <option>24</option>
+                        <option>25</option>
+                        <option>26</option>
+                        <option>27</option>
+                        <option>28</option>
+                        <option>29</option>
+                        <option>30</option>
+                        <option>31</option>
+
+                    </select>
+                    <select id="month">
+                        <option> Month </option>
+                        <option>January</option>
+                        <option>February</option>
+                        <option>March</option>
+                        <option>April</option>
+                        <option>May</option>
+                        <option>June</option>
+                        <option>July</option>
+                        <option>August</option>
+                        <option>September</option>
+                        <option>October</option>
+                        <option>November</option>
+                        <option>December</option>
+                    </select>
+                    <select id="year">
+
+                        <option>Year</option>
+                        <option>2024</option>
+                        <option>2023</option>
+                        <option>2022</option>
+
+                    </select>
+                </div>
+                <br>
+                <br />
+                <label>Gender</label>
+                <input type="radio" name="gender" /> Male
+                <input type="radio" name="gender" /> Female
+                <br />
+                <br />
+                <pre id="pre">By clicking Sign up, you agree to our <a href="#">Terms,Privacy Policy</a>and<a href="#">Cookies Policy.</a>
+You may receive SMS notifications from us and can opt out at any time. 
+                 </pre>
+                <div class="btn2">
+                    <input type="button" value="Sign Up" id="btn1" />
+
+                    <input type="button" value="Clear" id="Clear" />
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+</body>
+</html>
