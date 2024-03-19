@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <script src="Scripts/bootstrap.bundle.min.js"></script>
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Ubuntu', sans-serif;
+        }
+
+        nav {
+            padding: 15px 20px;
+            background: #4070f4;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 20px;
+            transition: all 0.4s ease;
+        }
+
+
+            nav .nav-content {
+                height: 100%;
+                max-width: 1200px;
+                margin: auto;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+            nav .logo a {
+                font-weight: 500;
+                font-size: 35px;
+                color: white;
+            }
+
+
+        .nav-content .nav-links {
+            display: flex;
+        }
+
+            .nav-content .nav-links li {
+                list-style: none;
+                margin: 0 8px;
+            }
+
+        .nav-links li a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            font-weight: 500;
+            padding: 10px 4px;
+            transition: all 0.3s ease;
+        }
+
+            .nav-links li a:hover {
+                color: black;
+            }
+
+
+
+
+        h2 {
+            font-size: 30px;
+            margin-bottom: 6px;
+            color: brown;
+        }
+
+        .text {
+            text-align: justify;
+            padding: 40px 80px;
+            box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1);
+            background-image: url('Img/b.png');
+            width: 100%;
+            height: auto;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .txt {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-content">
+            <div class="logo">
+                <a href="#" style="text-decoration: none;">CodingLab.</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="text">
+        <div class="mt-4 p-5 rounded">
+            <p><h2>Sticky Navigation Bar</h2><br />
+            <p class="txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed culpa minus ducimus nostrum aspernatur qui odit assumenda consectetur dolorum autem. Impedit aperiam nemo fuga numquam molestias sit quaerat quae doloribus est facilis ab, asperiores voluptatum dolore? Dignissimos porro corporis, veniam esse animi pariatur vitae quas est, amet minima et ratione tenetur earum officiis fugiat saepe eius nisi dolor, iusto voluptas obcaecati nam! Facere excepturi quibusdam, magni fugit quia, accusantium eum dolorum id dolores. Enim consectetur tempore distinctio, natus dolore incidunt. Repellendus ut natus, sit at inventore, reiciendis. Praesentium, tempore. Laborum consequuntur, illo voluptatem nobis rem molestias corporis laboriosam sint officiis, inventore atque, repellendus. Blanditiis molestiae minima consequuntur et accusamus illum, laboriosam placeat perferendis sed. Maiores eos laboriosam quas eius ratione dignissimos laborum doloremque, praesentium obcaecati cum consectetur magnam accusamus, esse, corporis aliquid pariatur mollitia corrupti cupiditate ipsa iure enim provident. Earum, voluptate! Similique quas veniam voluptas, maiores perspiciatis error voluptatum!</p>
+            <br><p class="txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima libero consequatur necessitatibus voluptatibus vel, ut asperiores magnam velit, eum veritatis natus, dolorum sit ipsum quidem laborum! Facilis officia itaque, explicabo harum illum, repellat nihil corporis! Dolor, libero vero, consequuntur sed necessitatibus corporis. Facilis autem natus animi pariatur quaerat rerum nemo quibusdam veritatis provident error nostrum ratione dolore officiis non amet, quidem dolores eaque sint blanditiis odio porro ut, quam soluta. Necessitatibus, aperiam eum doloremque voluptate qui aliquid consequatur aspernatur debitis expedita unde vitae quia officiis, delectus, possimus ratione ex rerum dignissimos maxime molestiae asperiores. Tempora recusandae debitis exercitationem quo facere reprehenderit tenetur, dolore laboriosam repellat modi. Magnam ratione iste quo perspiciatis explicabo deserunt temporibus quaerat inventore quod accusantium atque, dolores commodi nobis distinctio, fugit illum, soluta quisquam est in omnis! Recusandae incidunt voluptatem, consequuntur doloremque! Nisi incidunt, iure quidem dolores odit sint, ut quam. Ipsum, maiores doloremque velit numquam quisquam.</p>
+        </div>
+    </div>
+    <div class="">
+
+        <footer class="text-center text-lg-start" style="background-color: #db6930;">
+            <div class="container d-flex justify-content-center py-5">
+                <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;">
+                    <i class="fab fa-facebook-f"></i>
+                </button>
+                <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;">
+                    <i class="fab fa-youtube"></i>
+                </button>
+                <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;">
+                    <i class="fab fa-instagram"></i>
+                </button>
+                <button type="button" id="btn" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;">
+                    <i class="fab fa-twitter"></i>
+                </button>
+            </div>
+
+            <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                © 2024 Pune:
+                <a class="text-white" href="https://vhaashtech.com//">Vhaashtech.com</a>
+            </div>
+        </footer>
+
+    </div>
+    <script>
+    </script>
+</body>
+</html>
